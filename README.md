@@ -28,4 +28,15 @@ Step 9: Create storage account and upload Clinic.bacpac file downloaded from sou
 
 https://github.com/simplilearnaz305/CEP/blob/main/Storage/README.md
 
-Step 10: Once DB is created, you may import database using clinic.bacpac file downloaded in source code in step 5.
+Step 10: Once DB is created, you may import database using clinic.bacpac file downloaded in source code in step 5. (You may need to open firewall settings to allow all services and your IP in firewall list)
+
+Step 11: Once DB is imported, you can change connection string in web.config file in each VM in the below path.
+c:\inetpub\wwwroot\web.config.
+
+Step 12: Once everything is create, you may test the app and visit Patients page, you should see data.
+
+Optional steps:
+
+As an optional steps, you can also create an Internal load balancer and add both VMs in the load balancer and test the app.
+
+Also, you can further lockdown database by creating private endpoints and blocking public access to databases. 
