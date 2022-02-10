@@ -17,7 +17,7 @@
     },
     "containerName": {
       "type": "string",
-      "defaultValue": "logs",
+      "defaultValue": "ctr1",
       "metadata": {
         "description": "Specifies the name of the blob container."
       }
