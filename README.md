@@ -22,4 +22,8 @@ Step 7: Try accessing website with private IPs.
 
 Step 8: Create Azure SQL using ARM template.
 
+https://github.com/simplilearnaz305/CEP/blob/main/AZSQL/README.md
 
+Step 9: Create storage account and upload Clinic.bacpac file downloaded from source code in step 5 in the storage account.
+
+Step 10: Once DB is created, you may import database using clinic.bacpac file downloaded in source code in step 5.
