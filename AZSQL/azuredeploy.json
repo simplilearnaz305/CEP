@@ -60,8 +60,8 @@
       "name": "[format('{0}/{1}', parameters('serverName'), parameters('sqlDBName'))]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "Standard",
-        "tier": "Standard"
+        "name": "Basic",
+        "tier": "Basic"
       },
       "dependsOn": [
         "[resourceId('Microsoft.Sql/servers', parameters('serverName'))]"
